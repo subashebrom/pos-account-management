@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F2F4;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* === SH TOP ITEMS ===  */
+
+/* === SH TOP ITEM SECTION === */
+.sh-item-section {
+    width: 100%;
+    background-color: #F0F2F4;
+    display: flex;
+    justify-content: center;
+}
+
+/* === SH ITEM CONATAINER === */
+.sh-item-container {
+    width: 98%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* === SH LEFT ITEMS SECITON === */
+.sh-top-left-item-section {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sh-left-items {
+    display: flex;
+    align-items: center;
+}
+
+/* === SH SCANER ICON === */
+/* === SH SEARCH ICON BOX === */
+.sh-search-box {
+    display: flex;
+    position: relative;
+}
+
+.sh-scaner-icon {
+    display: flex;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.sh-search-box input {
+    width: 350px;
+    height: 30px;
+    padding: 5px 30px;
+    border: 1px solid #dcdfe3;
+}
+
+.sh-product {
+    width: 65px;
+    height: 30px;
+    border: 1px solid #dcdfe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.sh-product a {
+    font-size: 16px;
+    color: gray;
+}
+
+.sh-scan {
+    width: 44px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B51B0;
+    border-radius: 0 2px 2px 0;
+}
+
+.sh-scan a {
+    font-size: 16px;
+    color: white;
+}
+
+.sh-window-system-icon {
+    display: flex;
+}
+
+.sh-select-category {
+    width: 160px;
+    height: 30px;
+    margin-right: 50px;
+    padding: 0 5px;
+    border-radius: 2px;
+    border: 1px solid #dcdfe3;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.sh-select-category a {
+    font-size: 16px;
+    color: gray;
+}
+
+.split-icon {
+    width: 35px;
+    height: 30px;
+    border: 1px solid #dcdfe3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.sh-window-screen {
+    width: 35px;
+    height: 30px;
+    border: 1px solid #dcdfe3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+/* === SH RIGHT ITEMS SECITON === */
+.sh-right-item-section {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sh-right-search-box {
+    display: flex;
+    position: relative;
+}
+
+.sh-right-search-box input {
+    width: 530px;
+    height: 30px;
+    padding: 5px 30px;
+    border: 1px solid #dcdfe3;
+}
+
+.sh-person-logo {
+    display: flex;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.sh-plus-icon {
+    display: flex;
+    position: relative;
+    color: gray;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: -25px;
+}
+
+.sh-three-dot {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcdfe3;
+}
+
+.sh-three-dot a {
+    margin-top: 2px;
+}
+
+/* === RESPONSIVE FOR MOBILE === */
+@media(max-width: 768px) {
+    .sh-item-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sh-item-container {
+        width: 99%;
+        gap: 0px;
+        display: grid;
+    }
+
+    .sh-top-left-item-section {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sh-left-items {
+        background-color: green;
+        width: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .sh-search-box input {
+        width: 377px;
+        height: 30px;
+        padding: 5px 30px;
+        border: 1px solid #dcdfe3;
+    }
+
+    .sh-select-category {
+        width: 407px;
+        height: 30px;
+        margin-right: 10px;
+        padding: 0 5px;
+        border-radius: 2px;
+        border: 1px solid #dcdfe3;
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+    .sh-window-system-icon{
+        margin-top: 10px;
+    }
+
+    .sh-right-item-section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .sh-right-search-box input {
+        width: 350px;
+        height: 30px;
+        padding: 5px 30px;
+        border: 1px solid #dcdfe3;
+    }
+    .sh-right-search-box input{
+        width: 486px;
+    }
+}
+
+/* === SH MIDDLE SECTION === */
+.sh-middle-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sh-middle-container {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.sh-left-item-product-image-section {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 158px 158px 158px 158px 158px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.sh-product-name p {
+    font-size: 14px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sh-product-image img {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sh-product-imag {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sh-right-product-detials-section {
+    width: 40%;
+    height: 10px;
+}
+
+.sh-product-counter-details {
+    display: flex;
+    background-color: white;
+    padding: 7px;
+    font-weight: 900;
+    color: #2B51B0;
+}
+
+.sh-product-text {
+    width: 100%;
+}
+
+.sh-qty {
+    width: 40%;
+}
+
+.sh-price-text {
+    width: 50%;
+}
+
+.sh-total-counter-section {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+}
+
+.sh-total-counter-section img {
+    width: 150px;
+}
+
+.sh-subtotal-text {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.sh-subtotal {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sh-money {
+    width: 20%;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sh-discount-section {
+    background-color: white;
+    border: 1px solid #dcdfe3;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.sh-add-discount {
+    background-color: white;
+    border: 1px solid #dcdfe3;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.sh-add-discount a {
+    color: #2B51B0;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.sh-pay-now-section {
+    display: flex;
+    background-color: #2B51B0;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.sh-pay-now {
+    width: 100%;
+}
+
+.sh-intotal {
+    width: 20%;
+}
+/* === RESPONSIVE FOR MOBILE === */
+@media(max-width: 768px) {
+    .sh-middle-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .sh-middle-container {
+        width: 99%;
+        display: grid;
+    }
+
+    .sh-left-item-product-image-section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 230px 230px;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .sh-product-counter-details {
+        width: 486px;
+        display: flex;
+        background-color: white;
+        padding: 7px;
+        font-weight: 900;
+        color: #2B51B0;
+        margin-top: 30px;
+    }
+    .sh-total-counter-section {
+        width: 486px;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid #dcdfe3;
+    }
+    .sh-subtotal-text {
+        width: 486px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .sh-discount-section {
+        width: 486px;
+    }
+    .sh-pay-now-section {
+        width: 486px;
+        display: flex;
+        background-color: #2B51B0;
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        padding: 10px;
+        justify-content: space-between;
+    }
+}
